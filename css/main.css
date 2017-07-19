@@ -1,0 +1,132 @@
+body {
+	font-family:sans-serif;
+	letter-spacing: 2px;
+	padding:0;
+	margin:0;
+}
+
+section.contain {
+	background: url('../img/office.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:100vh;
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.4);
+	height:90px;
+}
+
+nav .navmargin {
+	margin:0 50px;
+	padding-top:12px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+ul.navlinks {
+	width:700px;
+	margin:0 auto;
+	padding-top:25px;
+}
+
+ul.navlinks li {
+	margin-left:50px;
+	font-size:13px;
+}
+
+ul.socialmedia {
+	float:right;
+}
+
+ul.socialmedia li {
+	margin-left:20px;
+}
+
+ul.socialmedia li a {
+	border-bottom: 1px solid white;
+}
+
+nav ul li {
+	float:left;
+}
+
+li a {
+	text-decoration: none;
+	color:white;
+}
+
+li a.active {
+	color:#B59F7F;
+}
+
+.logo {
+	float:left;
+}
+
+.logo a {
+	display:block;
+	width:60px;
+	text-decoration: none;
+	color:white;
+}
+
+header {
+	width:50%;
+	margin:0 auto;
+	color:white;
+	text-align: center;
+}
+
+.headercontent {
+	margin-top:250px;
+}
+
+header h1 {
+	font-size:55px;
+	letter-spacing: 5px;
+	margin-bottom:20px;
+}
+
+header p {
+	font-weight:100;
+	margin-bottom:40px;
+}
+
+button {
+	width:150px;
+	height:40px;
+	border: 3px solid white;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.learn {
+	background-color: rgba(0, 0, 0, .0);
+	color:white;
+}
+
+.purchase {
+	background-color:white;
+	color:black;
+}
+
+.downarrow {
+	display:block;
+	color:white;
+	width:30px;
+	height:30px;
+	margin:150px auto 0 auto;
+	border-radius:100px;
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.downarrow .fa-chevron-down {
+	position:relative;
+	top:7px;
+	left:1px;
+}
